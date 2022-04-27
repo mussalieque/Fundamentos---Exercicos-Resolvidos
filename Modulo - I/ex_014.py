@@ -3,5 +3,5 @@
 diga se ela começa ou não com o nome “SANTO”.
 '''
 
-nome = str(input('nome: ')).strip()
+nome = str(input('nome da cidade: ')).strip()
 print('santo' in nome.lower())
