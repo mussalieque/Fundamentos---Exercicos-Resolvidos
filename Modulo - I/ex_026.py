@@ -22,4 +22,4 @@ elif data >= 20 and data <= 25:
     Informacao = f'SÊNIOR'
 else:
     Informacao = f'MASTER'
-print(f'{Informacao} {data} Idade')
+print(f'{Informacao} {data} de Idade')
