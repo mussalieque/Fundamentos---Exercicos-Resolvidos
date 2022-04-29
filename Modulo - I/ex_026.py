@@ -12,8 +12,14 @@ from datetime import date
 Informacao = ''
 nascimento = int(input('Por favor digite o ano de nascimento:'))
 data = (date.today().year) - nascimento
-if data >= 9 and data < 14:
+if data >= 1 and data <= 9:
     Informacao = f'MIRIM'
-
-
+elif data >= 10 and data <= 14:
+    Informacao = f'INFANTIL'
+elif data >= 15 and data <= 19:
+    Informacao = f'JÚNIOR'
+elif data >= 20 and data <= 25:
+    Informacao = f'SÊNIOR'
+else:
+    Informacao = f'MASTER'
 print(f'{Informacao} {data} Idade')
