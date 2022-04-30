@@ -9,17 +9,17 @@ F) Acima de 25 anos: MASTER
 '''
 from datetime import date
 
-Informacao = ''
-nascimento = int(input('Por favor digite o ano de nascimento:'))
+categoria = ''
+nascimento = int(input('Por favor digite o ano de nascimento de atleta:'))
 data = (date.today().year) - nascimento
 if data >= 1 and data <= 9:
-    Informacao = f'MIRIM'
+    categoria = f'MIRIM'
 elif data >= 10 and data <= 14:
-    Informacao = f'INFANTIL'
+    categoria = f'INFANTIL'
 elif data >= 15 and data <= 19:
-    Informacao = f'JÚNIOR'
+    categoria = f'JÚNIOR'
 elif data >= 20 and data <= 25:
-    Informacao = f'SÊNIOR'
+    categoria = f'SÊNIOR'
 else:
-    Informacao = f'MASTER'
-print(f'{Informacao} {data} de Idade')
+    categoria = f'MASTER'
+print(f'{categoria} {data} de Idade')
