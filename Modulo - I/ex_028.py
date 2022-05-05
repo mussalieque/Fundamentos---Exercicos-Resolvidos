@@ -7,6 +7,7 @@ considerando o seu preço normal e condição de pagamento:
 – 3x ou mais no cartão: 20% de juros
 """
 
+preço
 Opcoes = int(input('1– à vista dinheiro/cheque: 10% de desconto\n2– à vista no cartão: 5% de desconto\n3– em até 2x no cartão: preço formal – 3x ou mais no cartão: 20% de juros'))
 
 print('Selecione:')
