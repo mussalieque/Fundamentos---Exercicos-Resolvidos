@@ -4,8 +4,7 @@
   não atingiram a maioridade e quantas já são maiores.
 '''
 from datetime import date
-from http.client import CONTINUE
-from tkinter import E
+
 
 maioridade = 0
 menoridade = 0
