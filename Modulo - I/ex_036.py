@@ -7,6 +7,7 @@ Menor = 0
 
 for cont in range(1, 4+1):
     Peso = float(input('Please Peso: '))
+
     if cont == 1:
         Maior = Peso
         Menor = Peso
